@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.subContainer {
+  background-color: #080842;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.optionStyle {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.optionContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 8px;
+}
+
+.iconStyle {
+  width: 20px;
+  height: 20px;
+}
+
+.designation {
+  font-size: 14px;
+  font-weight: 200;
+}

@@ -1,0 +1,37 @@
+.container {
+  padding: 20px;
+  width: 70%;
+  overflow: auto;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 800px; */
+  /* width: 600px; */
+  /* padding: 50px; */
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.inputStyle {
+  border: 0px;
+}
+
+.barContainer {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+}
+
+@media screen and (max-width: 800px) {
+  .barContainer {
+    position: relative;
+    width: 400px;
+    height: 350px;
+  }
+}

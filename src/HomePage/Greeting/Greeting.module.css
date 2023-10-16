@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subContainer{
+    display: flex;
+    align-items: center;
+}
+.header {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.iconStyle {
+    color: orange;
+    font-size: 24px;
+    margin-left: 5px;
+}

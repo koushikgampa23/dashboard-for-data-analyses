@@ -1,0 +1,51 @@
+.container {
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.subContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.inputStyle {
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.imgStyle{
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  margin: 10px; 
+}
+
+.imgContainer{
+  display: flex;
+  align-items: center;
+}
+
+.tableStyle{
+  width: 100%;
+  text-align: start;
+  margin-top: 30px;
+}
+
+th {
+  text-align: start;
+  color: grey;
+  font-size: 16px;
+}
+
+.subHeading{
+  font-size: 16px;
+  font-weight: 700;
+}

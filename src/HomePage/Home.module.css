@@ -1,0 +1,16 @@
+.container {
+    padding: 30px;
+    width: 100%;
+}
+
+.subContainer {
+    display: grid;
+    gap: 10px;
+}
+
+.chartContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+}

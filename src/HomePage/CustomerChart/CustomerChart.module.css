@@ -1,0 +1,16 @@
+.heading {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 250px;
+  width: 30%;
+  display: grid;
+  margin-bottom: 20px;
+}
+
+.doughnut {
+  max-height: 200px;
+  max-width: 200px;
+}
